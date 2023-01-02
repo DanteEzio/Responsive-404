@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .containerElements{
+    gap: 80px;
+} */
+
+
+.imageContainer{
+    max-width: 350px;
+}
+
+.bodycontainer{
+    max-width: 350px;
+    word-wrap: break-word;
+}
+
+.bodycontainer h1{
+    font-weight: 600;
+}
+
+.bodycontainer p{
+    max-width: 55%;
+}
+
+.bodycontainer button{
+    background-color: black;
+    border: none;
+    color: white;
+    max-width: 150px;
+    font-size: 10px;
+    font-weight: 600;
+    padding: 12px 10px;
+}
